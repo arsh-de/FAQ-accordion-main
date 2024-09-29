@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | FAQ accordion</title>
+</head>
+
+<body>
+
+  <main class=" relative min-h-screen flex justify-center items-center">
+    <div class="w-full h-[320px] absolute top-0 left-0 z-10">
+      <img src="assets/images/background-pattern-desktop.svg" alt="Top background dektop"
+        class="hidden md:block w-full h-full object-cover">
+      <img src="assets/images/background-pattern-mobile.svg" alt="Top background mobile"
+        class="block md:hidden w-full h-full object-cover">
+    </div>
+
+    <section
+      class="relative w-full md:max-w-[600px] bg-white rounded-[20px] p-6 md:my-[2rem] my-[3rem] mx-[1rem] z-20 flex flex-col justify-center ">
+      <header class="flex my-4 justify-start">
+        <img src="assets/images/icon-star.svg" alt="Star icon">
+        <h1 class="text-6xl font-bold pl-4"> FAQs</h1>
+      </header>
+
+      <article>
+        <div class="question">
+          <p>
+            What is Frontend Mentor, and how will it help me?
+          </p>
+          <img src="assets/images/icon-plus.svg" alt="Plus icon" class="plus-icon absolute md:right-[30px] right-[5px]">
+          <img src="assets/images/icon-minus.svg" alt="Minus icon"
+            class="minus-icon hidden absolute md:right-[30px] right-[5px]">
+        </div>
+        <p class="answer hidden">
+          Frontend Mentor offers realistic coding challenges to help developers improve their
+          frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for
+          all levels and ideal for portfolio building.
+        </p>
+      </article>
+      <article>
+        <div class="question">
+          <p>
+            Is Frontend Mentor free?
+          </p>
+          <img src="assets/images/icon-plus.svg" alt="Plus icon"
+            class="plus-icon  absolute md:right-[30px] right-[5px]">
+          <img src="assets/images/icon-minus.svg" alt="Minus icon"
+            class="minus-icon hidden absolute md:right-[30px] right-[5px]">
+        </div>
+        <p class="answer hidden">
+          Yes, Frontend Mentor offers both free and premium coding challenges, with the free
+          option providing access to a range of projects suitable for all skill levels.
+        </p>
+      </article>
+      <article>
+        <div class="question">
+          <p>
+            Can I use Frontend Mentor projects in my portfolio?
+          </p>
+          <img src="assets/images/icon-plus.svg" alt="Plus icon"
+            class="plus-icon  absolute md:right-[30px] right-[5px]">
+          <img src="assets/images/icon-minus.svg" alt="Minus icon"
+            class="minus-icon hidden absolute md:right-[30px] right-[5px]">
+        </div>
+        <p class="answer hidden">
+          Yes, you can use projects completed on Frontend Mentor in your portfolio. It's an excellent
+          way to showcase your skills to potential employers!
+        </p>
+      </article>
+      <article>
+        <div class="question">
+          <p> How can I get help if I'm stuck on a challenge? </p>
+          <img src="assets/images/icon-plus.svg" alt="Plus icon"
+            class="plus-icon  absolute md:right-[30px] right-[5px]">
+          <img src="assets/images/icon-minus.svg" alt="Minus icon"
+            class="minus-icon hidden absolute md:right-[30px] right-[5px]">
+        </div>
+        <p class="answer hidden ">
+          The best place to get help is inside Frontend Mentor's Discord community. There's a help
+          channel where you can ask questions and seek support from other community members.
+        </p>
+    </section>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
